@@ -1,0 +1,42 @@
+
+.navbar {
+    background-color: #f2f2f2; /* A light grey background */
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+  }
+  
+  .navbar__segments,
+  .navbar__utilities {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar__segment,
+  .navbar__utility {
+    color: #333; /* Dark grey color */
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .navbar__segment:active,
+  .navbar__utility:active {
+    
+   
+    color: green;
+  }
+  .navbar__segment:hover,
+  .navbar__utility:hover {
+    
+    text-decoration: none;
+    color: red;
+  }
+  
+  /* This is optional to ensure the last item doesn't have a margin to the right */
+  .navbar__segment:last-child,
+  .navbar__utility:last-child {
+    margin-right: 0;
+  }
+  

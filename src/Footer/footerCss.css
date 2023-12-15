@@ -1,0 +1,63 @@
+/* FooterComponent.css */
+.footer {
+    background-color: #5C2D91; /* Adjust to match the purple color from the image */
+    color: white;
+    padding: 20px; /* Adjust to match the padding from the image */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .footer-branding {
+    display: flex;
+    align-items: center;
+    gap: 16px; /* Adjust this value to maintain the desired distance from the image to the text */
+  }
+  
+  .footer-logo {
+    /* Adjust width and height as needed to match the image's size */
+    width: auto; /* or specific width */
+    height: 50px; /* or specific height */
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px; /* Adjust based on the space between links in the image */
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Adjust based on the font size in the image */
+    /* Add hover effect if needed */
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments if needed */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-branding {
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .footer-links {
+      flex-direction: column;
+      gap: 10px; /* Adjust based on the space between links in the image on smaller screens */
+    }
+  }
+  

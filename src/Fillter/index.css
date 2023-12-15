@@ -1,0 +1,28 @@
+
+.filters {
+    display: flex;
+    justify-content: space-between; /* This will align the children to the left and right */
+    padding: 10px; /* Adjust padding as needed */
+    /* Rest of your styles... */
+  }
+  
+ 
+  
+  .filter-select {
+    padding: 12px 24px; /* Increase padding to make the dropdown larger */
+    font-size: 16px; /* Increase font size if desired */
+    /* Rest of your styles... */
+  }
+  
+  /* Responsive adjustments if needed */
+  @media (max-width: 768px) {
+    .filters {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .filter-section {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  
